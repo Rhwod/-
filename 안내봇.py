@@ -10,7 +10,7 @@ import discord, asyncio, datetime, pytz
 client = discord.Client()
 client2 = commands.Bot(command_prefix="*")
 
-GuildName = "`5학년 6반 수다수다`"
+GuildName = "`Servername`"
 MemberCount = 22
 BotMadeby = "`꼬쟁 (양하율)#1582`"
 
@@ -19,7 +19,7 @@ CommandList = "`안내야 도움말`, `안내야 서버 인원 수`, `안내야 
 
 @client.event
 async def on_ready(): # 봇이 실행됬을 때
-    print("5-6 안내봇이 실행되었습니다!")
+    print("안내봇이 실행되었습니다!")
     await client.change_presence(status=discord.Status.online, activity=discord.Game("안내야 도움말로 도움말을 받아보세요!"))
 
 @client.event
