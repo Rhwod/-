@@ -36,6 +36,9 @@ async def on_message(message):
     if message.content == "안내야 안녕":
         await message.channel.send ("{}님 안녕하세요!".format(message.author.mention))
 
+    if message.content == "안내야 깃허브":
+        await message.channel.send ("안내의 코드는 `꼬쟁 (양하율)#1582` 님의 깃허브에 올라와있어요!")
+
 
 # 그냥 토큰이다
 client.run('')
