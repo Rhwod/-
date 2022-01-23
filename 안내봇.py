@@ -105,7 +105,7 @@ async def on_message(message):
 
 
 
-access_token = os.environ["BOT_TOKEN"]
+access_token = os.environ['BOT_TOKEN']
 client.run(access_token)
 
 # 근데 굳이 내 깃헙에 와서 이걸 읽는 이상한 사람이 있진 않겠지?
