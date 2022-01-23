@@ -8,7 +8,7 @@ import numbers
 import discord, asyncio, datetime, pytz
 
 # 주석은 수정이 필요한 코드에만 있습니다.
-# 테스트 명령어는 `안내야` 가 아닌 `*안내야` 로 시작합니다.
+# 테스트 명령어는 `안내야` 가 아닌 `*안내야` 로 시작합니다. 
 
 client = discord.Client()
 client2 = commands.Bot(command_prefix="*")
@@ -99,6 +99,6 @@ async def on_message(message):
 
 
 # 그냥 토큰이다
-client.run('ODk4NDQxNjQ5ODc1NzM0NTQw.YWkQ_Q.tHCdA6C5hRivu_iFjgtVg1FsSx4')
+client.run('')
 
 # 근데 굳이 내 깃헙에 와서 이걸 읽는 이상한 사람이 있진 않겠지?
