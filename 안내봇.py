@@ -13,15 +13,14 @@ import discord, asyncio, datetime, pytz
 client = discord.Client()
 client2 = commands.Bot(command_prefix="*")
 
-<<<<<<< HEAD
+
 GuildName = "`5학년 6반 수다수다`" # 디스코드 서버 이름
 MemberCount = 22 #디스코드 서버 멤버 수
 BotMadeby = "`꼬쟁 (양하율)#1582`" #봇 만든 사람 이름
-=======
+
 GuildName = "`Servername`"
 MemberCount = 22
 BotMadeby = "`꼬쟁 (양하율)#1582`"
->>>>>>> cb0c452bd5be833d4ccd84758577cd406ba61167
 
 CommandCount = 16 #명령어 개수
 CommandList = "`안내야 도움말`, `안내야 서버 인원 수`, `안내야 멈춰!`, `안내야 바보`, `안내야 샌즈`, `안내야 안내는 누가 만들었어?`, `안내야 깃허브`, `안내야 뭐해?`" #명령어 종류
@@ -97,14 +96,12 @@ async def on_message(message):
         embed.set_footer(text="Bot Made by. 꼬쟁 (양하율)#1582", icon_url="https://cdn.discordapp.com/avatars/471661032335474689/c0df8484dcfac6d28838d4aea4674a1a.webp?size=128")
         embed.set_thumbnail(url="https://cdn.discordapp.com/icons/898441706750476298/f2737612adf6b59401abc3401b5f5b99.webp?size=96")
         await message.channel.send (embed=embed)
-
-
     
 
 
 
 
 # 그냥 토큰이다
-client.run('')
+client.run('ODk4NDQxNjQ5ODc1NzM0NTQw.YWkQ_Q.QPOcPbq6Eo4d-RGxUBj0tgJh69s')
 
 # 근데 굳이 내 깃헙에 와서 이걸 읽는 이상한 사람이 있진 않겠지?
