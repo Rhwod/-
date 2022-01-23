@@ -102,12 +102,8 @@ async def on_message(message):
 
 
 
-<<<<<<< HEAD
+
 # 그냥 토큰이다
-client.run('ODk4NDQxNjQ5ODc1NzM0NTQw.YWkQ_Q.QPOcPbq6Eo4d-RGxUBj0tgJh69s')
-=======
-access_token = os.environ['BOT_TOKEN']
-client.run(access_token)
->>>>>>> c0570cf2bedbdd298c5ab926a4c09c6280f5200b
+client.run('')
 
 # 근데 굳이 내 깃헙에 와서 이걸 읽는 이상한 사람이 있진 않겠지?
