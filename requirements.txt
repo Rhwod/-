@@ -1,10 +1,4 @@
-discord.py
+discord
 asyncio
 datetime
 pytz
-commands
-get
-fabs
-AWAIT
-server
-message
