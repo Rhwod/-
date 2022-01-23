@@ -6,6 +6,7 @@ from discord.utils import get
 from discord.ext import commands # New import
 import numbers
 import discord, asyncio, datetime, pytz
+import os
 
 # 주석은 수정이 필요한 코드에만 있습니다.
 # 테스트 명령어는 `안내야` 가 아닌 `*안내야` 로 시작합니다. 
@@ -104,7 +105,7 @@ async def on_message(message):
 
 
 
-# 그냥 토큰이다
-client.run('')
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
 
 # 근데 굳이 내 깃헙에 와서 이걸 읽는 이상한 사람이 있진 않겠지?
